@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:#f38c58;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    gap: 50px;
+}
+
+.heading{
+    color:   #180e15;
+    text-shadow:4px 4px 10px  #0e000d;
+    letter-spacing: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+
+.container{
+    background-color: rgba(150, 55, 118, 0.767);
+    padding:30px ;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    height: 80vh;
+}
+
+.greet{
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.greet input{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    gap: 10px;
+    font-weight: 500px;
+    margin-left: 50px;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    width: 100%;
+}
+.double{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    width: 100%;
+}
+
+.form-harcama,.form-fiyat{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.form-state{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+input{
+    outline: none;
+    padding: 10px 20px;
+    border: 2px solid rgb(113, 104, 245);
+    border-radius: 10px;
+}
+
+.ekle-btn{
+    background-color: rgb(46, 192, 202);
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+
+}
+.total{
+    background-color: #c6acf7;
+    color:black;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+.total span{
+ color: black;  
+
+}
+.list{
+    display:flex ;
+    flex-direction: column;
+    gap: 50px;
+    overflow: auto;
+    min-height: 100px;
+    max-height: 250px;
+    width: 100%;
+   
+}
+
+.expense{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(2, 255, 192);
+    padding: 5px 10px;
+    gap: 15px;
+    box-shadow:4px 20px 32px 3px rgba(0,0,0,0.68) ;
+
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.buttons img{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+
+.expense h2:nth-child(2){
+    color:rgb(255, 3, 234);
+}
+.payed{
+    opacity: 0.7;
+}
+
+.payed h2:nth-child(1){
+    text-decoration: line-through;
+}
+.payed h2:nth-child(2){
+    color: green;
+       }
